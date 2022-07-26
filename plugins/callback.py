@@ -264,7 +264,7 @@ async def in_close_panel(_, query: CallbackQuery):
 async def menu(_, query: CallbackQuery):
     user_id = query.from_user.id
     await query.edit_message_text(
-        text=f"""ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs""",
+        text=f"""ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴄᴏᴍʀᴀᴅᴇ""",
         disable_web_page_preview=True, 
         reply_markup=menu_keyboard
     ) 
