@@ -206,7 +206,7 @@ async def source(_, query: CallbackQuery):
     await query.answer("team shadow source code")
     await query.edit_message_text(
         f"""❣️ **ʜᴇʟʟᴏ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
-➠  **ᴀᴍᴀʟᴀ ᴍᴜsɪᴄ sᴏᴜʀᴄᴇ ɪs ᴄᴏᴍᴘʟᴇᴛᴇ ᴄʟᴏsᴇᴅ sᴏᴜʀᴄᴇ ʀᴇᴘᴏʀᴛɪɴɢ ᴀɴʏ ʙᴜɢs ᴏʀ ʀᴇᴘᴏʀᴛs ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠ [ᴛᴇᴀᴍ ᴄᴏᴍʀᴀᴅᴇ](https://t.me/tamil_comrade)!**""", 
+➠  **ᴀɴɢᴇʟ ᴍᴜsɪᴄ sᴏᴜʀᴄᴇ ɪs ᴄᴏᴍᴘʟᴇᴛᴇ ᴄʟᴏsᴇᴅ sᴏᴜʀᴄᴇ ʀᴇᴘᴏʀᴛɪɴɢ ᴀɴʏ ʙᴜɢs ᴏʀ ʀᴇᴘᴏʀᴛs ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠ [ᴛᴇᴀᴍ ᴄᴏᴍʀᴀᴅᴇ](https://t.me/tamil_comrade)!**""", 
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🗑 ʙɪɴ", callback_data="close_panel")]]
         ),
