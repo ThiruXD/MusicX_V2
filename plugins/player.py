@@ -76,7 +76,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("resource/teamcomrade.png")
+    image2 = Image.open("resource/telugucoders.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -142,12 +142,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"** ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ᴛʜᴇʀᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴘʟs ᴀᴅᴅ ᴏᴛ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ @tgshadow_fighters **")
+                        f"** ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ᴛʜᴇʀᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴘʟs ᴀᴅᴅ ᴏᴛ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ @comrade_botz **")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ᴛʜᴇʀᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴘʟs ᴀᴅᴅ ᴏᴛ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ @tgshadow_fighters ...*")
+            f"**ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ᴛʜᴇʀᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴘʟs ᴀᴅᴅ ᴏᴛ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ @comrade_robotz ...*")
         return
     
     audio = (
