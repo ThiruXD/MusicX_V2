@@ -48,7 +48,7 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("📚ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="command_list"), 
             ],[
-            InlineKeyboardButton("✨ᴏᴡɴᴇʀ✨", url="https://t.me/comrade_bots"), 
+            InlineKeyboardButton("✨ᴏᴡɴᴇʀ✨", url="https://t.me/about_Bobby"), 
             ],[
             InlineKeyboardButton("🐾sᴜᴘᴘᴏʀᴛ🐾", url=f"https://t.me/comrade_robotz"), 
             InlineKeyboardButton("🐾ᴄʜᴀɴɴᴇʟ🐾", url=f"https://t.me/conrade_network"), 
