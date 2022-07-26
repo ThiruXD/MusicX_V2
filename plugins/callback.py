@@ -44,7 +44,7 @@ async def start_set(_, query: CallbackQuery):
     reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("📚ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="command_list"), 
             ],[
-            InlineKeyboardButton("👅ʜᴏᴍᴇ👅", url="https://t.me/comrade_bots"), 
+            InlineKeyboardButton("✨ғᴜᴄᴋᴇʀ✨", url="https://t.me/about_bobby"), 
             ],[
             InlineKeyboardButton("🐾sᴜᴘᴘᴏʀᴛ🐾", url=f"https://t.me/{GROUP}"), 
             InlineKeyboardButton("🐾ᴄʜᴀɴɴᴇʟ🐾", url=f"https://t.me/{NETWORK}"), 
@@ -62,7 +62,7 @@ async def commands_set(_, query: CallbackQuery):
         f"""💗 ʜᴇʟʟᴏ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) 
 ➠ ʜᴇʟʟᴏ ɴᴀᴍsᴛʜᴇ ᴀɴɴᴀ ᴛʜɪs ɪs ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ɢᴜɪᴅᴇ ᴡʜᴀᴛ ᴄᴏᴍᴍᴀɴᴅ ʏᴏᴜ ɴᴇᴅᴅ sᴇʟᴇᴄᴛ ʜᴇʀᴇ.. 
 
-➠ ᴛʜɪs ʙᴏᴛ ᴍᴀᴅᴇ ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [ᴛᴀᴍɪʟ ᴄᴏᴍʀᴀᴅᴇ](https://t.me/comrade_robots) 
+➠ ᴛʜɪs ʙᴏᴛ ᴍᴀᴅᴇ ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [ᴛᴀᴍɪʟ ᴄᴏᴍʀᴀᴅᴇ](https://t.me/comrade_robotz) 
 """, 
     reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("📚ɢᴇɴᴇʀᴀʟ ᴄᴏᴍᴍᴀɴᴅs", callback_data="general_list"), 
