@@ -76,7 +76,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("resource/telugucoders.png")
+    image2 = Image.open("resource/teamcomrade.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -90,7 +90,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Telugu coder (@Telugu_coders)",
+        f"Powered By: team comrade (@comrade_robotz)",
         (255, 255, 255),
         font=font,
     )
@@ -118,7 +118,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "telugu_coder"
+        user.first_name = "Team Comrade"
     usar = user
     wew = usar.id
     try:
@@ -165,7 +165,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/4963e9019e0328075e980.jpg"
+        thumb_name = "https://telegra.ph/file/bb2448b6c4a377de2e32a.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -222,7 +222,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/4963e9019e0328075e980.jpg"
+            thumb_name = "https://telegra.ph/file/9b70bb1c866ce97de94dc.jpg"
             duration = "NaN"
             views = "NaN"    
             keyboard = InlineKeyboardMarkup(
@@ -323,7 +323,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**❰ 𝗔𝗺𝗮𝗹𝗮 ❘ 𝗿𝗼𝗯𝗼𝘁 ❱ ❤ 𝗡𝗼𝘄 🤘 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗙𝗿𝗼𝗺 🔊 𝗽𝗿𝗶𝘃𝗮𝘁𝗲  😎 𝗦𝗲𝗿𝘃𝗲𝗿...**".format(),
+            caption=f"**❰ 𝗔𝗡𝗚𝗘𝗟 ❘ 𝗠𝗨𝗦𝗜𝗖 ❱ ❤ 𝗡𝗼𝘄 🤘 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗙𝗿𝗼𝗺 🔊 𝗽𝗿𝗶𝘃𝗮𝘁𝗲  😎 𝗦𝗲𝗿𝘃𝗲𝗿...**".format(),
            )
 
     os.remove("final.png")
