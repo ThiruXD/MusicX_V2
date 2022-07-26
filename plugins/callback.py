@@ -49,7 +49,7 @@ async def start_set(_, query: CallbackQuery):
             InlineKeyboardButton("🐾sᴜᴘᴘᴏʀᴛ🐾", url=f"https://t.me/{GROUP}"), 
             InlineKeyboardButton("🐾ᴄʜᴀɴɴᴇʟ🐾", url=f"https://t.me/{NETWORK}"), 
             ],[
-            InlineKeyboardButton("🔺 ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔺", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("🔺 ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔺", url=f"https://t.me/angelmusicrobot?startgroup=true")
             ]]
             ) 
         ) 
