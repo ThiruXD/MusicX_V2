@@ -38,7 +38,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg",
+        photo=f"https://telegra.ph/file/bb2448b6c4a377de2e32a.jpg",
         caption=f"""**👋🏻 ʜᴇʟʟᴏ {message.from_user.mention()} ɪᴀᴍ ᴀ ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴡɪᴛʜ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ
 
 ɢʀᴏᴜᴘs ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.. ᴀɴʏ ʜᴇʟᴘ ʏᴏᴜ ᴡᴀɴᴛ ʜɪᴛ ᴛʜᴇ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ /help..
@@ -48,12 +48,12 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("📚ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="command_list"), 
             ],[
-            InlineKeyboardButton("$ᴅᴏɴᴀᴛᴇ", url="https://t.me/Telugucodersdonations_bot"), 
+            InlineKeyboardButton("👅ʜᴏᴍᴇ👅", url="https://t.me/comrade_bots"), 
             ],[
-            InlineKeyboardButton("✉️sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP}"), 
-            InlineKeyboardButton("📡ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{NETWORK}"), 
+            InlineKeyboardButton("🐾sᴜᴘᴘᴏʀᴛ🐾", url=f"https://t.me/comrade_robotz"), 
+            InlineKeyboardButton("🐾ᴄʜᴀɴɴᴇʟ🐾", url=f"https://t.me/conrade_network"), 
             ],[
-            InlineKeyboardButton("✚ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("🔺 ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔺", url=f"https://t.me/Angelmusicrobot?startgroup=true")
             ]]
             ) 
         ) 
@@ -62,7 +62,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/alive"]) & filters.group & ~filters.edited)
 async def alive(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg",
+        photo=f"https://telegra.ph/file/468a7a0bf377925dbf0fa.jpg",
         caption=f"""ʜᴇʟʟᴏ {message.from_user.mention()} ɪᴀᴍ ᴀʟɪᴠᴇ ɴᴏᴡ 👻""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -78,13 +78,13 @@ async def alive(client: Client, message: Message):
 @Client.on_message(commandpro(["/repo", "#repo"]) & filters.group & ~filters.edited)
 async def repo(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/d65ba2c34eb7c058c1c32.jpg",
+        photo=f"https://telegra.ph/file/880a44ce9606f7ecec06f.jpg",
         caption=f"""ᴄʜᴇᴄᴋ ɴᴏᴡ😃""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ᴄʜᴇᴄᴋ ɴᴏᴡ☺", url="https://github.com/Telugucoders/Amalamusic")
+                        "ᴄʜᴇᴄᴋ ɴᴏᴡ☺", url="https://t.me/comrade_botz")
                 ]
             ]
         ),
@@ -94,7 +94,7 @@ async def repo(client: Client, message: Message):
 @Client.on_message(command("help") & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg",
+        photo=f"https://telegra.ph/file/80b75c16eac2ad6df5ac3.jpg",
         caption=f""" ✨ **ʜᴇʟʟᴏ {message.from_user.mention()} !**\n
 💘 **ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ sᴇᴛᴜᴘ ᴛʜɪs ʙᴏᴛ? ʀᴇᴀᴅ 💖 sᴇᴛᴛɪɴɢ ᴜᴘ ᴛʜɪs ʙᴏᴛ ɪɴ ɢʀᴏᴜᴘ **\n
 💗 **ᴛᴏ ᴋɴᴏᴡ ᴘʟᴀʏ /ᴀᴜᴅɪᴏ? ʀᴇᴀᴅ 💖 ǫᴜɪᴄᴋ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅs **\n
@@ -113,7 +113,7 @@ async def help(client: Client, message: Message):
 @Client.on_message(command("ghelp") & filters.group & ~filters.edited)
 async def gelp(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg",
+        photo=f"https://telegra.ph/file/59ab3595d5c4e60e0a76f.jpg",
         caption=f""" ✨ **ʜᴇʟʟᴏ {message.from_user.mention()} !**\n
 💘 **ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ sᴇᴛᴜᴘ ᴛʜɪs ʙᴏᴛ? ʀᴇᴀᴅ 💖 sᴇᴛᴛɪɴɢ ᴜᴘ ᴛʜɪs ʙᴏᴛ ɪɴ ɢʀᴏᴜᴘ **\n
 💗 **ᴛᴏ ᴋɴᴏᴡ ᴘʟᴀʏ /ᴀᴜᴅɪᴏ? ʀᴇᴀᴅ 💖 ǫᴜɪᴄᴋ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅs **\n
@@ -142,12 +142,12 @@ async def get_uptime(c: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4963e9019e0328075e980.jpg", 
+        photo=f"https://telegra.ph/file/9b70bb1c866ce97de94dc.jpg", 
         caption=f""" 💞 **ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs ʙᴏᴛ ᴜᴘᴛɪᴍᴇ**:\n
 ➠ **ᴜᴘᴛɪᴍᴇ:** **{uptime}**\n
 ➠ **ᴜsᴇʀ:** **{message.from_user.mention()}**\n
 ➠ **sᴛᴀʀᴛ ᴛɪᴍᴇ:** **{START_TIME_ISO}**\n
-➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ:** **[ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs](https://t.me/tgshadow_fighters)**""", 
+➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ:** **[ʏᴇᴀᴍ ᴄᴏᴍʀᴀᴅᴇ](https://t.me/tamil_comrade)**""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
