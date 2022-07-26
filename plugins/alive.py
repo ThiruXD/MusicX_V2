@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
 
 ɢʀᴏᴜᴘs ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.. ᴀɴʏ ʜᴇʟᴘ ʏᴏᴜ ᴡᴀɴᴛ ʜɪᴛ ᴛʜᴇ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ /help..
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴛᴇʟᴜɢᴜ ᴄᴏᴅᴇʀs](https://t.me/tgshadow_fighters)**
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴛᴇᴀᴍ ᴄᴏᴍʀᴀᴅᴇ](https://t.me/tamil_comrade)**
 """,
     reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("📚ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="command_list"), 
