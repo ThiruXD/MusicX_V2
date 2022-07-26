@@ -147,7 +147,7 @@ async def get_uptime(c: Client, message: Message):
 ➠ **ᴜᴘᴛɪᴍᴇ:** **{uptime}**\n
 ➠ **ᴜsᴇʀ:** **{message.from_user.mention()}**\n
 ➠ **sᴛᴀʀᴛ ᴛɪᴍᴇ:** **{START_TIME_ISO}**\n
-➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ:** **[ʏᴇᴀᴍ ᴄᴏᴍʀᴀᴅᴇ](https://t.me/tamil_comrade)**""", 
+➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ:** **[ᴛᴇᴀᴍ ᴄᴏᴍʀᴀᴅᴇ](https://t.me/tamil_comrade)**""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
